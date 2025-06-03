@@ -22,7 +22,7 @@ This repository contains solutions to various **Data Structures and Algorithms (
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Aryan2005-unq/DSA-using-java.git
 2. Open the repository in VS Code.
 
 3. Navigate to the desired folder and run the Java file.
