@@ -24,3 +24,32 @@ class Solution {
         return new ArrayList(ansMap.values());
     }
 }
+
+
+🧠 Group Anagrams – Simple Summary
+
+If the input array is empty, return an empty list.
+
+Create an integer array of size 26 to count letters from a to z.
+
+Use a HashMap:
+
+Key → unique string made from character counts
+
+Value → list of words (anagrams)
+
+🔁 For each word in the array:
+
+Reset the count array to zero.
+
+Count how many times each character appears in the word.
+
+Convert the count array into a unique string key using StringBuilder.
+
+If the key is not in the map, create a new list.
+
+Add the word to the list for that key.
+
+✅ Final Step:
+
+Return all the grouped lists from the HashMap.
